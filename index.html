@@ -1,0 +1,207 @@
+<!-- DOCUMENTO HTML DA PÁGINA WILLDEPAY STORE®, TOTALMENTE COMENTADO -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" /> <!-- DEFINE A CODIFICAÇÃO DE CARACTERES USANDO UTF-8 -->
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1" /> <!-- RESPONSIVIDADE EM DISPOSITIVOS MÓVEIS -->
+  
+  <title>WillDepay Store®</title> <!-- TÍTULO EXIBIDO NA ABA DO NAVEGADOR -->
+  
+  <!-- IMPORTAÇÃO DAS FONTES UTILIZADAS NO SITE -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!-- BIBLIOTECA DE ÍCONES FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- ESTILOS EXTERNOS PERSONALIZADOS -->
+  <link rel="stylesheet" href="stylo.css">
+</head>
+<body>
+  
+  <div class="ambient-light"></div> <!-- ELEMENTO DECORATIVO PARA EFEITOS VISUAIS DE ILUMINAÇÃO -->
+
+  <!-- INÍCIO DO CABEÇALHO DO SITE -->
+  <header class="site-header">
+    <div class="container header-inner"> <!-- CONTAINER PRINCIPAL DO CABEÇALHO -->
+      
+      <div class="logo"> <!-- LOGO DO SITE -->
+        WillDepay <span class="highlight">Store®</span>
+      </div>
+      
+      <!-- MENU DE NAVEGAÇÃO PRINCIPAL -->
+      <nav class="main-nav">
+        <a href="#home" class="nav-link active">Início</a>
+        <a href="#features" class="nav-link">Recursos</a>
+        <a href="#specs" class="nav-link">Especificações</a>
+        <a href="#gallery" class="nav-link">Galeria</a>
+      </nav>
+      
+      <!-- BOTÃO DE PRÉ-VENDA -->
+      <a href="#newsletter" class="btn-small">Pré-venda</a>
+      
+      <!-- BOTÃO DE MENU PARA DISPOSITIVOS MÓVEIS -->
+      <div class="mobile-menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    
+    <!-- NAVEGAÇÃO EXIBIDA SOMENTE EM TELAS PEQUENAS -->
+    <div class="mobile-nav">
+        <a href="#home">Início</a>
+        <a href="#features">Recursos</a>
+        <a href="#specs">Especificações</a>
+        <a href="#gallery">Galeria</a>
+    </div>
+  </header>
+
+  <!-- SEÇÃO PRINCIPAL (HERO) -->
+  <main id="home" class="hero">
+    <div class="container hero-grid"> <!-- LAYOUT DIVIDIDO EM DUAS COLUNAS -->
+      
+      <!-- CONTEÚDO TEXTUAL DO HERO -->
+      <div class="hero-content fade-in-up"> <!-- ANIMAÇÃO DE ENTRADA -->
+        <span class="badge">LANÇAMENTO 2025</span> <!-- BADGE DE DESTAQUE -->
+        
+        <h1>Apple Watch <br><span class="text-gradient">Series 10</span></h1>
+        
+        <p class="lead">
+          Design mais fino. Tela maior. O companheiro definitivo para sua saúde e produtividade chegou em sua melhor versão.
+        </p>
+        
+        <!-- BOTÕES PRINCIPAIS DO TOPO DA PÁGINA -->
+        <div class="cta-group">
+          <a class="cta" href="#features">Descobrir Mais</a>
+          <a class="secondary-link" href="#"><i class="fa-solid fa-play"></i> Ver Vídeo</a>
+        </div>
+        
+        <!-- INFORMAÇÕES RÁPIDAS -->
+        <div class="hero-stats">
+            <div class="stat-item">
+                <i class="fa-solid fa-bolt"></i> <span>30 min carga rápida</span>
+            </div>
+            <div class="stat-item">
+                <i class="fa-solid fa-water"></i> <span>50m à prova d'água</span>
+            </div>
+        </div>
+      </div>
+
+      <!-- ÁREA DA IMAGEM DO PRODUTO -->
+      <div class="hero-image-area fade-in-right"> <!-- ANIMAÇÃO DE ENTRADA LATERAL -->
+        <div class="product-image-wrap">
+          <img src="./RELOGIODUPLO.png" alt="Apple Watch Series 10" class="product-image floating"> <!-- IMAGEM FLUTUANTE -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- SEÇÃO DE RECURSOS -->
+  <section id="features" class="section-padding">
+    <div class="container">
+      
+      <div class="section-header text-center"> <!-- CABEÇALHO DA SEÇÃO -->
+        <h2>Inovação em <span class="text-gradient">Cada Detalhe</span></h2>
+        <p>Tecnologia de ponta construída para o seu pulso.</p>
+      </div>
+
+      <!-- CARTÕES DE RECURSOS -->
+      <div class="features-grid">
+        
+        <div class="feature-card glass-card reveal"> <!-- CARTÃO COM EFEITO VIDRO -->
+          <i class="fa-solid fa-heart-pulse feature-icon"></i>
+          <h3>Saúde Avançada</h3>
+          <p>Monitoramento de oxigênio no sangue, ECG e notificações de ritmo cardíaco irregular.</p>
+        </div>
+        
+        <div class="feature-card glass-card reveal">
+          <i class="fa-solid fa-layer-group feature-icon"></i>
+          <h3>Tela Retina Always-On</h3>
+          <p>A maior tela já vista em um Apple Watch. Mais espaço para suas métricas.</p>
+        </div>
+        
+        <div class="feature-card glass-card reveal">
+          <i class="fa-solid fa-satellite-dish feature-icon"></i>
+          <h3>Conectividade</h3>
+          <p>Atenda ligações e responda mensagens direto do pulso, mesmo sem o iPhone.</p>
+        </div>
+        
+        <div class="feature-card glass-card reveal">
+          <i class="fa-solid fa-moon feature-icon"></i>
+          <h3>Monitor de Sono</h3>
+          <p>Entenda seus padrões de sono e crie rotinas para descansar melhor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO DE ESPECIFICAÇÕES -->
+  <section id="specs" class="section-padding bg-darker">
+    <div class="container specs-container"> <!-- LAYOUT EM DUAS COLUNAS -->
+      
+      <div class="specs-image reveal"> <!-- IMAGEM DA SEÇÃO -->
+        <img src="./RELOGIODUPLO.png" alt="Visão Lateral" class="side-image">
+      </div>
+      
+      <div class="specs-content reveal"> <!-- TEXTO DA SEÇÃO -->
+        <h2>Poder <span class="text-gradient">Ilimitado</span></h2>
+        <ul class="specs-list"> <!-- LISTA DE ESPECIFICAÇÕES -->
+          <li>
+            <strong>Processador S10 SiP</strong>
+            <span>O chip mais rápido já criado para um relógio.</span>
+          </li>
+          <li>
+            <strong>Bateria para o Dia Todo</strong>
+            <span>Até 18 horas de uso contínuo com Low Power Mode.</span>
+          </li>
+          <li>
+            <strong>Materiais Premium</strong>
+            <span>Disponível em Alumínio e Titânio Aeroespacial.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO DA GALERIA DE IMAGENS -->
+  <section id="gallery" class="section-padding">
+    <div class="container">
+        <div class="section-header text-center">
+            <h2>Galeria <span class="text-gradient">de Fotos</span></h2>
+        </div>
+        
+        <div class="gallery-grid"> <!-- GRID COM 3 IMAGENS -->
+            <div class="gallery-item item-main reveal"><img src="./RELOGIODUPLO1.png" alt="Gallery 1"></div>
+            <div class="gallery-item reveal"><img src="./RELOGIOPRETO1.png" alt="Gallery 2"></div>
+            <div class="gallery-item reveal"><img src="./RELOGIOROSA1.png" alt="Gallery 3"></div>
+        </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO DE NEWSLETTER -->
+  <section id="newsletter" class="cta-section section-padding">
+    <div class="container">
+      <div class="cta-box glass-card text-center reveal"> <!-- CARTÃO CENTRAL COM EFEITO VIDRO -->
+        <h2>Pronto para o <span class="text-gradient">Futuro?</span></h2>
+        <p>Cadastre-se para receber ofertas exclusivas da DevClub Store.</p>
+        
+        <!-- FORMULÁRIO DE INSCRIÇÃO -->
+        <form class="newsletter-form">
+          <input type="email" placeholder="Seu melhor e-mail"> <!-- CAMPO DE E-MAIL -->
+          <button type="submit" class="cta">Inscrever-se</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ DO SITE -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-logo">WillDepay<span>Store®</span></div>
+      <p class="copyright">© 2025 WillDepay Store®. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT JS EXTERNO -->
+  <script src="script.js"></script>
+</body>
+</html>
